@@ -1,8 +1,14 @@
 import * as React from "react";
-import { HelloWorld } from '@wow/coms';
+import { HelloWorld, Button } from '@wow/coms';
 
 export interface IAppProps {}
 
 export default function IApp(props: IAppProps) {
-  return <HelloWorld />;
+  return (
+    <div>
+      <HelloWorld />
+      <h1>Bye Bye</h1>
+      <Button>baby</Button>
+    </div>
+  );
 }

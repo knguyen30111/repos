@@ -3,7 +3,9 @@
 		"outDir": "lib",
 		"noImplicitAny": true,
 		"target": "es5",
+		"skipLibCheck": true,
 		"lib": ["es5", "es6", "dom"],
+		"types": ["react"],
 		"jsx": "react",
 		"allowJs": true,
     "moduleResolution": "node",
@@ -13,5 +15,5 @@
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
-	}
+	},
 }
