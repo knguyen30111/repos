@@ -12,7 +12,7 @@ const config: webpack.Configuration = {
   entry: "./src/index.tsx",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "bundle.js"
+    filename: "[name].js"
   },
   resolve: {
     // Add '.ts' and '.tsx' as resolvable extensions.

@@ -27,7 +27,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
-    "dev": "run-p baby:*",
+    "dev": "run-p dev:*",
     "dev:app": "lerna run dev --stream --scope=@wow/app",
     "dev:tsc": "lerna run dev --stream --scope=@wow/coms",
     "build": "run-p build:*",

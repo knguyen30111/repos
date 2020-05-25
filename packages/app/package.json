@@ -36,7 +36,7 @@
     "react-dom": "*"
   },
   "scripts": {
-		"dev": "webpack-dev-server --open --config webpack.dev.ts",
-		"build": "webpack --mode production --config webpack.prod.ts"
+		"dev": "webpack-dev-server --open --config ../../webpack.dev.ts",
+		"build": "webpack --mode production --config ../../webpack.prod.ts"
 	}
 }
