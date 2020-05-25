@@ -5,8 +5,8 @@
   "types": "lib/index.d.js",
   "license": "MIT",
   "scripts": {
-    "tsc": "tsc -w",
-    "start": "node lib/index.js"
+    "dev": "tsc -w",
+    "build": "tsc"
   },
   "peerDependencies": {
     "styled-components": "^5.1.0",
